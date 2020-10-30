@@ -6,7 +6,7 @@ namespace date_time
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var now = DateTime.Now;
         }
     }
 }
