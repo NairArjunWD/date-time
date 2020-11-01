@@ -8,12 +8,12 @@ namespace date_time
         {
             var now = DateTime.Now;
 
-            TimeZoneInfo pacificTimeZone = TimeZoneInfo.FindSystemTimeZoneById("Pacific Standard Time");
+            TimeZoneInfo easternTimeZone = TimeZoneInfo.FindSystemTimeZoneById("Eastern Standard Time");
 
-            var pacificTime = TimeZoneInfo.ConvertTime(now, pacificTimeZone);
+            var easternTime = TimeZoneInfo.ConvertTime(now, easternTime);
 
             Console.WriteLine(now);
-            Console.WriteLine(pacificTime);
+            Console.WriteLine(easternTime);
         }
     }
 }
