@@ -10,7 +10,7 @@ namespace date_time
 
             TimeZoneInfo easternTimeZone = TimeZoneInfo.FindSystemTimeZoneById("Eastern Standard Time");
 
-            var easternTime = TimeZoneInfo.ConvertTime(now, easternTime);
+            var easternTime = TimeZoneInfo.ConvertTime(now, easternTimeZone);
 
             Console.WriteLine(now);
             Console.WriteLine(easternTime);
