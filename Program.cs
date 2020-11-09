@@ -16,7 +16,7 @@ namespace date_time
             var centralTime = TimeZoneInfo.ConvertTime(now, centralTimeZone);
             var mountainTime = TimeZoneInfo.ConvertTime(now, mountainTimeZone);
             
-
+            // Output current time, EST, CST, and MNT
             Console.WriteLine(now);
             Console.WriteLine(easternTime);
             Console.WriteLine(centralTime);
