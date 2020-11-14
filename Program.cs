@@ -17,10 +17,10 @@ namespace date_time
             var mountainTime = TimeZoneInfo.ConvertTime(now, mountainTimeZone);
             
             // Output current time, EST, CST, and MNT
-            Console.WriteLine(now);
-            Console.WriteLine(easternTime);
-            Console.WriteLine(centralTime);
-            Console.WriteLine(mountainTime);
+            Console.WriteLine("Local: " + now);
+            Console.WriteLine("EST: " + easternTime);
+            Console.WriteLine("CST: " + centralTime);
+            Console.WriteLine("MNT: " + mountainTime);
         }
     }
 }
