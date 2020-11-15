@@ -6,8 +6,10 @@ namespace date_time
     {
         static void Main(string[] args)
         {
+            // Do not include PST since that is the now 
             var now = DateTime.Now;
 
+            // Display all American Time Zones in Contintental US
             TimeZoneInfo easternTimeZone = TimeZoneInfo.FindSystemTimeZoneById("Eastern Standard Time");
             TimeZoneInfo centralTimeZone = TimeZoneInfo.FindSystemTimeZoneById("Central Standard Time");
             TimeZoneInfo mountainTimeZone = TimeZoneInfo.FindSystemTimeZoneById("Mountain Time");
