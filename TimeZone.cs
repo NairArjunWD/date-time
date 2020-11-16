@@ -4,8 +4,10 @@ namespace date_time
     {
         // TimeZone here
 
-        // TimeZone 2
+        // TimeZone MNT
 
-        // TimeZone 3
+        // TimeZone CST
+
+        // Timezone EST
     }
 }
