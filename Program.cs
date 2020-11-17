@@ -23,6 +23,12 @@ namespace date_time
             Console.WriteLine("EST: " + easternTime);
             Console.WriteLine("CST: " + centralTime);
             Console.WriteLine("MNT: " + mountainTime);
+
+            var date = "11/17/2020 10:00:00 PM";
+
+            var parsedDate = DateTime ParseExact(date, 
+                "M/d/yyyy h:mm:ss tt",
+                CultureInfo.InvariantCulture);
         }
     }
 }
